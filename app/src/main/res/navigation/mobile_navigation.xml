@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/splash">
+    <fragment
+        android:id="@+id/splash"
+        android:name="com.example.cyber_securty.ui.splash.SplashFragment"
+        android:label="Splash"
+        tools:layout="@layout/fragment_splash" />
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.example.cyber_securty.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/descriptionFragment"
+        android:name="com.example.cyber_securty.ui.description.DescriptionFragment"
+        android:label="fragment_description"
+        tools:layout="@layout/fragment_description" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.cyber_securty.ui.home.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/storyFragment"
+        android:name="com.example.cyber_securty.ui.audio.StoryFragment"
+        android:label="fragment_story"
+        tools:layout="@layout/fragment_story" />
+    <fragment
+        android:id="@+id/lessonTwoFragment"
+        android:name="com.example.cyber_securty.ui.audio.LessonTwoFragment"
+        android:label="fragment_lesson_two"
+        tools:layout="@layout/fragment_lesson_two" />
+    <fragment
+        android:id="@+id/lessonThreeFragment"
+        android:name="com.example.cyber_securty.ui.audio.LessonThreeFragment"
+        android:label="fragment_lesson_three"
+        tools:layout="@layout/fragment_lesson_three" />
+    <fragment
+        android:id="@+id/lessonFourFragment"
+        android:name="com.example.cyber_securty.ui.audio.LessonFourFragment"
+        android:label="fragment_lesson_four"
+        tools:layout="@layout/fragment_lesson_four" />
+    <fragment
+        android:id="@+id/lessonFiveFragment"
+        android:name="com.example.cyber_securty.ui.audio.LessonFiveFragment"
+        android:label="fragment_lesson_five"
+        tools:layout="@layout/fragment_lesson_five" />
+
+</navigation>
